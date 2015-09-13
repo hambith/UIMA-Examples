@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-core.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-tools.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file://usr/local/apache-uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="UIMA_HOME/lib/jVinci.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-adapter-soap.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-adapter-vinci.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-cpe.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file://usr/local/apache-uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-document-annotation.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file://usr/local/apache-uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uimaj-bootstrap.jar"/>
+	<classpathentry kind="var" path="UIMA_HOME/lib/uima-examples.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
