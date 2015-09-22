@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>false</primitive>  
+  <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="NumberAnnotator">
+      <import location="../ej2/NumberAnnotator.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="UnitAnnotator">
+      <import location="../ej3/UnitAnnotator.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="MetricsAnnotator">
+      <import location="MetricsAnnotator.xml"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+  <analysisEngineMetaData>
+    <name>MetricsAnnotatorPipeline</name>
+    <description>Ejemplo de anotador agregado</description>
+    <version>1.0</version>
+    <vendor/>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <flowConstraints>
+      <fixedFlow>
+        <node>NumberAnnotator</node>
+        <node>UnitAnnotator</node>
+        <node>MetricsAnnotator</node>
+      </fixedFlow>
+    </flowConstraints>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">es.upm.ctb.midas.talleruima.ej4.Metric</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+  <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

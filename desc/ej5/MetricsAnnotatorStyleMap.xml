@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<styleMap>
+<rule>
+<pattern>es.upm.ctb.midas.talleruima.ej4.Metric</pattern>
+<label>Metric</label>
+<style>color:black; background:lightblue;</style>
+</rule>
+</styleMap>
+

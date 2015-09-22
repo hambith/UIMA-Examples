@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:tcas="http:///uima/tcas.ecore" xmlns:ej10="http:///es/upm/ctb/midas/talleruima/ej10.ecore" xmi:version="2.0">
+    <cas:NULL xmi:id="0"/>
+    <cas:Sofa xmi:id="6" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Load or edit text here."/>
+    <tcas:DocumentAnnotation xmi:id="1" sofa="6" begin="0" end="23" language="en"/>
+    <ej10:Word xmi:id="28" sofa="6" begin="0" end="4" vowels="13" consonants="19"/>
+    <ej10:Word xmi:id="44" sofa="6" begin="5" end="7" vowels="34" consonants="38"/>
+    <ej10:Word xmi:id="65" sofa="6" begin="8" end="12" vowels="50" consonants="56"/>
+    <ej10:Word xmi:id="89" sofa="6" begin="13" end="17" vowels="71" consonants="77"/>
+    <ej10:Word xmi:id="110" sofa="6" begin="18" end="22" vowels="95" consonants="101"/>
+    <cas:NonEmptyStringList xmi:id="107"/>
+    <cas:NonEmptyStringList xmi:id="104" head="r" tail="107"/>
+    <cas:NonEmptyStringList xmi:id="101" head="h" tail="104"/>
+    <cas:StringArray xmi:id="95">
+        <elements>e</elements>
+        <elements>e</elements>
+        <elements/>
+        <elements/>
+    </cas:StringArray>
+    <cas:NonEmptyStringList xmi:id="86"/>
+    <cas:NonEmptyStringList xmi:id="83" head="t" tail="86"/>
+    <cas:NonEmptyStringList xmi:id="80" head="x" tail="83"/>
+    <cas:NonEmptyStringList xmi:id="77" head="t" tail="80"/>
+    <cas:StringArray xmi:id="71">
+        <elements>e</elements>
+        <elements/>
+        <elements/>
+        <elements/>
+    </cas:StringArray>
+    <cas:NonEmptyStringList xmi:id="62"/>
+    <cas:NonEmptyStringList xmi:id="59" head="t" tail="62"/>
+    <cas:NonEmptyStringList xmi:id="56" head="d" tail="59"/>
+    <cas:StringArray xmi:id="50">
+        <elements>e</elements>
+        <elements>i</elements>
+        <elements/>
+        <elements/>
+    </cas:StringArray>
+    <cas:NonEmptyStringList xmi:id="41"/>
+    <cas:NonEmptyStringList xmi:id="38" head="r" tail="41"/>
+    <cas:StringArray xmi:id="34">
+        <elements>o</elements>
+        <elements/>
+    </cas:StringArray>
+    <cas:NonEmptyStringList xmi:id="25"/>
+    <cas:NonEmptyStringList xmi:id="22" head="d" tail="25"/>
+    <cas:NonEmptyStringList xmi:id="19" head="L" tail="22"/>
+    <cas:StringArray xmi:id="13">
+        <elements>o</elements>
+        <elements>a</elements>
+        <elements/>
+        <elements/>
+    </cas:StringArray>
+    <cas:View sofa="6" members="1 28 44 65 89 110"/>
+</xmi:XMI>

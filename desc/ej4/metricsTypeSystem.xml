@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>metricsTypeSystem</name>
+    <description/>
+    <version>1.0</version>
+    <vendor/>
+  <imports>
+    <import location="../ej2/NumberTypeSystem.xml"/>
+    <import location="../ej3/UnitTypeSystem.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>es.upm.ctb.midas.talleruima.ej4.Metric</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>number</name>
+          <description/>
+          <rangeTypeName>es.upm.ctb.midas.talleruima.ej2.Number</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>unit</name>
+          <description/>
+          <rangeTypeName>es.upm.ctb.midas.talleruima.ej3.Unit</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>
